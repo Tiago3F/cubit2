@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-// class CounterCubit extends Cubit<int> {
-//   CounterCubit() : super(0);
-//   void incrementar() => emit(state + 1);
-// }
+class CounterCubit extends Cubit<int> {
+  CounterCubit() : super(0);
+  void incrementar() => emit(state + 1);
+}
 
 void main() {
   runApp(const MyApp());
